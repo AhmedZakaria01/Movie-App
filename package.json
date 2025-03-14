@@ -1,14 +1,14 @@
 {
+  "homepage": "https://username.github.io/Movie-App",
   "name": "movie-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3000 --host",
-    "build": "tsc && vite build",
-    "preview": "vite preview --host",
-    "format": "prettier --write .",
-    "lint": "eslint . --ext .ts,.tsx"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/node": "^20.9.2",
