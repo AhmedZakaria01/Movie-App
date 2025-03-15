@@ -1,20 +1,17 @@
 // Components
-import Navbar from 'components/Navbar';
-import Router from '@/Router';
-import { BrowserRouter } from 'react-router-dom';
+import Navbar from 'components/Navbar'
+import Router from '@/Router'
 
 function App() {
   return (
-    <BrowserRouter basename="/Movie-App/">
-      <div className="relative">
-        {/* Navbar */}
-        <Navbar />
+    <div className='relative'>
+      {/* Navbar */}
+      <Navbar />
 
-        {/* Content */}
-        <Router />
-      </div>
-    </BrowserRouter>
-  );
+      {/* Content */}
+      <Router />
+    </div>
+  )
 }
 
-export default App;
+export default App
