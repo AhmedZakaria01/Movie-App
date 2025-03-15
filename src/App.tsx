@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/Movie-App">
+    <BrowserRouter basename="/Movie-App/">
       <div className="relative">
         {/* Navbar */}
         <Navbar />
